@@ -17,7 +17,7 @@ void banco_init(Banco* b, const char* arq_clientes, const char* arq_movimentos) 
     lista_clientes_init(&b->clientes);
     strcpy(b->arquivo_clientes, arq_clientes);
     strcpy(b->arquivo_movimentos, arq_movimentos);
-    printf("Banco Malvader inicializado com arquivos: %s e %s\n", arq_clientes, arq_movimentos);
+    printf("DEVBank inicializado com arquivos: %s e %s\n", arq_clientes, arq_movimentos);
 }
 
 int banco_carregar(Banco* b) {
@@ -41,7 +41,7 @@ int banco_salvar(Banco* b) {
 
 void banco_free(Banco* b) {
     lista_clientes_free(&b->clientes);
-    printf("Recursos do Banco Malvader liberados.\n");
+    printf("Recursos do DEVBank liberados.\n");
 }
 
 // Abertura de conta

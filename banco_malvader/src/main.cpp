@@ -82,7 +82,7 @@ int main(void) {
 }
 
 void exibir_menu(void) {
-    printf("\n--- Banco Malvader ---\n");
+    printf("\n--- DEVBank ---\n");
     printf("1. Abrir nova conta\n");
     printf("2. Encerrar conta\n");
     printf("3. Consultar dados do cliente\n");

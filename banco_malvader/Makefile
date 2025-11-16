@@ -11,7 +11,7 @@ SRC_FILES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_FILES = $(SRC_FILES:.cpp=.o)
 
 # Nome do executável
-TARGET = $(BIN_DIR)/banco_malvader.exe
+TARGET = $(BIN_DIR)/DEVBank.exe
 
 # Regra padrão
 all: $(TARGET)
